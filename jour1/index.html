@@ -35,22 +35,28 @@
         </video>
 
         <!-- La balise table permet de créer un tableau, avec "tr" (table row) qui permet de créer une ligne avec dedans soit des cellules qui représente des entête (th = table headers) soit de simple cellules de donné (td = table data). -->
-        <table>
-            <tr>
-              <th>Person 1</th>
-              <th>Person 2</th>
-              <th>Person 3</th>
-            </tr>
-            <tr>
-              <td>Emil</td>
-              <td>Tobias</td>
-              <td>Linus</td>
-            </tr>
-            <tr>
-              <td>16</td>
-              <td>14</td>
-              <td>10</td>
-            </tr>
+        <table border="">
+            <thead>
+                <tr>
+                <th>Person 1</th>
+                <th>Person 2</th>
+                <th>Person 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Emil</td>
+                <td>Tobias</td>
+                <td>Linus</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                <td>16</td>
+                <td>14</td>
+                <td>10</td>
+                </tr>
+            </tfoot>
         </table> 
 
         <!-- 1er lien est un lien externe envoyant sur une page d'un autre site, le 2ème est un lien interne envoyant sur une autre page du site et le 3ème lien permet d'envoyer a un endroit selectionné dans la page ( appelé une ancre). -->
@@ -93,7 +99,7 @@
     <footer>
 
     </footer>
-    <script>
+    <!-- <script>
         // Fonction à exécuter lorsque la page est chargée
         function afficherAlerte() {
             alert("La page est chargée !");
@@ -101,6 +107,6 @@
     
         // Attacher la fonction à l'événement onload du corps du document
         window.onload = afficherAlerte;
-    </script>
+    </script> -->
 </body>
 </html>
