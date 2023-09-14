@@ -1,0 +1,57 @@
+table{
+    padding: 1%;
+}
+
+img {
+    margin: 2%;
+}
+
+        /* BEM */
+
+    /* block */
+ol {height: 100px;}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 2%;
+}
+
+article{
+    width: 50%;
+    display: grid;
+    grid: repeat(3, 80px) / auto-flow;
+}
+
+    /* element */
+.ol__li{font-style: italic;}
+
+#erreur{color: rgb(0, 229, 255)}
+
+input{
+    width: 20%;
+    color: blue;
+    margin: 0.3%;
+}
+
+a[title] {color: blueviolet;}
+
+#article__grid-div {background-color: yellow;}
+#article__grid-div2 {background-color: rgb(255, 0, 255);}
+#article__grid-div3 {background-color: rgb(0, 255, 89);}
+
+    /* modifier */
+h1::before {content: open-quote;}
+h1::after {content: close-quote;}
+
+ul:hover {color: yellowgreen;}
+
+input[value]:hover{
+    transition: 20s;
+    transform: rotate(36000deg); /* Rotation de 360 degrés */
+    background-color: #34b8bd; /* Changement de couleur au survol */
+    color: aliceblue;
+}
