@@ -1,5 +1,10 @@
-table{
+.table__thead-tbody-tfoot{
     padding: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: #34b8bd;
+    flex-wrap: wrap;
+    width: 30%;
 }
 
 img {
@@ -37,7 +42,7 @@ input{
     margin: 0.3%;
 }
 
-a[title] {color: blueviolet;}
+a[title] {color: rgb(226, 229, 231);}
 
 #article__grid-div {background-color: yellow;}
 #article__grid-div2 {background-color: rgb(255, 0, 255);}
